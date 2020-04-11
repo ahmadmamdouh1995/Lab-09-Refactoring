@@ -21,7 +21,7 @@ function Movies(movie) {
     this.overview = movie.overview;
     this.average_votes = movie.average_votes;
     this.total_votes = movie.total_votes;
-    this.image_url = movie.image_url;
+    this.image_url = `https://image.tmdb.org/t/p/w600_and_h900_bestv2/${movie.poster_path}`;
     this.popularity = movie.popularity;
     this.released_on = movie.released_on;
 }
